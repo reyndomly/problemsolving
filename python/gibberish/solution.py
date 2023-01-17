@@ -7,12 +7,12 @@ input :
 asdfasdasdwaw
 
 output :
-    "a":4,
-    "s":3,
-    "d":3,
-    "f":1,
-    "w":2
-    
+    a : 4,
+    s : 3,
+    d : 3,
+    f : 1,
+    w : 2
+
 """
 
 def decompose(word):
@@ -28,3 +28,15 @@ def decompose(word):
         print(key+" : "+str(value))
 
 decompose("nainuainaniaieueo")
+
+"""
+expected output :
+
+n : 4
+a : 4
+i : 4
+u : 2
+e : 2
+o : 1
+
+"""
